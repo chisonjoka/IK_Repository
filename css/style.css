@@ -1,0 +1,189 @@
+/* Website template by freewebsitetemplates.com */
+
+body {
+	background: #d4ebd9;
+	color: #356618;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 100%;
+	margin: 0;
+	min-width: 940px;
+	padding: 0;
+}
+a {
+	outline: none;
+	text-outline:none;
+}
+img {
+	border: 0;
+}
+p {
+	margin: 0;
+	text-align: justify;
+}
+p a {
+	color: #356618;
+}
+p a:hover {
+	color: #66a143;
+}
+#page {
+	background: #356618;
+	margin: 0 auto;
+	padding: 0 20px;
+	width: 900px;
+}
+
+/* My CSS*/
+#header{
+	position:absolute; 
+	overflow:hidden; 
+	left:8%; 
+	top:0%;
+	 width:84%;
+	  height:16%;
+	}
+#logo{
+	position:absolute;
+	 overflow:hidden; 
+	 left:8%; top:0%; 
+	 height:16%; 
+	 width:17%;
+	}
+#placeholder{
+	position:absolute;
+	overflow:hidden;
+	top: 75%;
+	left:8%;
+	width:84%;
+	background:#3CF;
+	height:21%;
+	/*background-image:url(../images/backgrand_04.png);*/
+		
+	}
+	#placeholder >img{
+			width:100%;
+			
+		}
+#footer{
+		position:absolute;
+		top: 96%;
+		width:84%;
+		height:3%;
+		background:#159d48;
+		left:8%;
+	}
+#footer > font{
+	text-align: center;
+	}
+#main{
+	 position:absolute; 
+	 overflow:hidden; 
+	 left:8%; 
+	 top:20%; 
+	 width:84%; 
+	 height:55%; 
+	 background:#159d48;
+	}
+	
+#placeholder{
+	font:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+#nav {
+	background: #159e49;
+	/*height: 151px;*/
+	font-weight:bold;
+	position:absolute; 
+	top:16%; 
+	width:84%; 
+	height:5%;
+	left:8%; 
+	background: #159e49;
+}
+#header a#logo {
+	display: block;
+	height: 86px;
+	padding: 15px 0 0 20px;
+}
+#header a#logo img {
+	display: block;
+	margin: 0 auto;
+}
+#nav > ul {
+	background: #159e49;
+	height: 100%;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#nav > ul > li {
+	float: right;
+	position: relative;
+	width: 15%;
+}
+#nav > ul > li > a {
+	color: #f0f2c9;
+	display: block;
+	letter-spacing: 0.05em;
+	line-height: 200%;
+	text-align: center;
+	text-decoration: none;
+}
+/**/
+#nav> ul > li.current > a,
+#nav > ul > li.current > a:hover,
+#nav ul li ul li.current a,
+#nav ul li ul li.current a:hover {
+	background: #bbd8c6;
+	color: #356618;
+	font-family: Arial, Helvetica, Sans-Serif;
+	position:relative;
+	width:100%;
+	height:100%;
+}
+#nav ul li a:hover {
+	background: #e6e6e6;
+	color: #1b330c;
+}
+#nav ul li ul {
+	list-style: none;
+	left: -99999px;
+	margin: 0;
+	overflow: visible;
+	padding: 5% 0 0;
+	position: absolute;
+	top: 5%;
+	width: 100%;
+	/*z-index: 2;*/
+}
+
+#nav ul li:hover ul {
+	left: 0;
+	top: 95%;
+}
+#nav ul li ul li {
+	background: #A7772B;
+}
+#nav ul li ul li a {
+	color: #f0f2c9;
+	display: block;
+	line-height: 31px;
+	text-align: center;
+	text-decoration: none;
+}
+h2 h3{
+	position:relative;
+	left: 10px;
+	width:400px;}
+#sidebar{
+	position: relative;
+	width: 196px;
+	top: inherit;
+	height: 338px;
+	float: right;
+	background: #bbd8c6;
+	}
+	#email #name #message{
+		white-space-collapse:300px;
+		}
